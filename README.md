@@ -16,3 +16,7 @@ export COINS="bitcoin,ethereum"
 current_rate_coin_usd{coin="bitcoin"} 17182.408525906096
 current_rate_coin_usd{coin="ethereum"} 1274.0311497166313
 ```
+
+## Thanks
+
+<https://github.com/metonymic-smokey/prom-instrumentation>
