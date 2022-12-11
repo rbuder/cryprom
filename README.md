@@ -9,6 +9,11 @@ export COINS="bitcoin,ethereum"
 ./cryprom
 ```
 
+Get all supported coins from here:
+```
+curl --location --request GET 'api.coincap.io/v2/assets' | jq -r '.data | .[].id
+```
+
 ## Sample
 ```
 # HELP current_rate_coin_usd Current exchange rate
