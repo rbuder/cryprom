@@ -10,3 +10,6 @@ build:
 clean:
 	@echo "Cleaning up"
 	rm -rf ./bin
+
+image:
+	docker build .
