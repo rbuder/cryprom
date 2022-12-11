@@ -11,7 +11,7 @@ export COINS="bitcoin,ethereum"
 
 Get all supported coins from here:
 ```
-curl --location --request GET 'api.coincap.io/v2/assets' | jq -r '.data | .[].id
+curl --location --request GET 'api.coincap.io/v2/assets' | jq -r '.data | .[].id'
 ```
 
 ## Sample
